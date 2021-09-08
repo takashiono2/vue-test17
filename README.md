@@ -34,7 +34,7 @@
   <summary>section8</summary>
   <ul>
     <li>#56.新規プロジェクトの作成</li>
-    <li>#57. ストアの作成</li>
+    <li>#</li>
     <li>#</li>
     <li>#</li>
     <li>#</li>
