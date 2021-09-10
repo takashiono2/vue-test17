@@ -49,14 +49,15 @@
     <li>#66.カウンターコンポーネントの作成</li>
     <li>#67.カウンターコンポーネントの利用</li>
     <li>#68.動作確認</li>
-    <li>#</li>
+    <li>#69.演習：リセット機能の追加</li>
+    <li>#70.演習回答：リセット機能の追加</li>
     <li>#</li>
   </ul>  
 </details>
 <!--<details>
   <summary>section</summary>
   <ul>
-    <li>#4. 新規プロジェクトの作成</li>
+    <li>#</li>
     <li>#</li>
     <li>#</li>
     <li>#</li>
