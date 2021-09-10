@@ -34,10 +34,10 @@
   <summary>section8</summary>
   <ul>
     <li>#56.新規プロジェクトの作成</li>
-    <li>#57</li>
-    <li>#</li>
-    <li>#</li>
-    <li>#</li>
+    <li>#57.ストアの作成</li>
+    <li>#58.ミューテーションの利用</li>
+    <li>#59.ミューテーションの値渡し</li>
+    <li>#60.アクションの利用</li>
     <li>#</li>
   </ul>  
 </details>
