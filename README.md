@@ -62,7 +62,7 @@
     <li>#76.新規プロジェクトの作成</li>
     <li>#77.firebase関連のパッケージのインストール</li>
     <li>#78.環境変数の設定</li>
-    <li>#</li>
+    <li>#79.Firebaseとの連携</li>
   </ul>  
 </details>
 <!--<details>
