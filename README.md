@@ -65,6 +65,7 @@
     <li>#79.Firebaseとの連携</li>
     <li>#80.storeの作成（index.js）</li>
     <li>#81.storeの作成（todos.js)</li>
+    <li>#82.todos.jsの説明</li>
   </ul>  
 </details>
 <!--<details>
