@@ -63,6 +63,8 @@
     <li>#77.firebase関連のパッケージのインストール</li>
     <li>#78.環境変数の設定</li>
     <li>#79.Firebaseとの連携</li>
+    <li>#80.storeの作成（index.js）</li>
+    <li>#81.storeの作成（todos.js)</li>
   </ul>  
 </details>
 <!--<details>
