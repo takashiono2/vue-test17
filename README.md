@@ -22,7 +22,7 @@
   </ul>  
 </details>
 <details>
-  <summary>section7</summary>
+  <summary>section7 アセット</summary>
   <ul>
     <li>#48.イントロダクション - アセット</li>
     <li>#49.新規プロジェクトの作成</li>
@@ -31,7 +31,7 @@
   </ul>  
 </details>
 <details>
-  <summary>section8</summary>
+  <summary>section8 vuexストアを利用した状態管理</summary>
   <ul>
     <li>#56.新規プロジェクトの作成</li>
     <li>#57.ストアの作成</li>
@@ -42,7 +42,7 @@
   </ul>  
 </details>
 <details>
-  <summary>section9</summary>
+  <summary>section9 カウンターアプリの開発</summary>
   <ul>
     <li>#64.新規プロジェクトの作成</li>
     <li>#65.ストアの作成</li>
