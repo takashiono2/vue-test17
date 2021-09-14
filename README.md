@@ -66,6 +66,11 @@
     <li>#80.storeの作成（index.js）</li>
     <li>#81.storeの作成（todos.js)</li>
     <li>#82.todos.jsの説明</li>
+    <li>#83.Todosコンポーネントの作成</li>
+    <li>#84.TODO追加機能</li>
+    <li>#</li>
+    <li>#</li>
+    <li>#</li>
   </ul>  
 </details>
 <!--<details>

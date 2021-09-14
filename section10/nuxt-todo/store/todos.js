@@ -1,4 +1,4 @@
-import { firebase } from '~/plugins/firebase'
+import firebase from '~/plugins/firebase'
 import { firestoreAction } from 'vuexfire'
 
 const db = firebase.firestore()
@@ -22,7 +22,7 @@ export const actions = {
     }
   }),
   remove: firestoreAction((context,id) => {
-    todosRef.doc(id).celete()
+    todosRef.doc(id).delete()
   }),
   toggle: firestoreAction((context,todo) => {
     todosRef.doc(todo.id).update({
