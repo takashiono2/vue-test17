@@ -5,20 +5,19 @@
       <li v-for="todo in todos" :key="todo.id">
         <!-- {{ todo }} -->
         <span v-if="todo.created">
-          <input type="checkbox"
-            :checked="todo.done"
-            @change="toggle(todo)"
-          >
+          <input type="checkbox" :checked="todo.done" @change="toggle(todo)"><!--inputをcheckbox型でチェックが入ったら、変更のタイミングで、toggle(todo)関数で判定 -->
           <span :class="{done: todo.done}">
-            {{ todo.name }},{{ todo.created.toDate() | dataFilter }}
+          <!--spanクラスと紐付けて、tureなら横線を入れる -->
+            {{ todo.name }},{{ todo.created.toDate()| dataFilter }}<!--filter関数を使う-->
           </span>
           <button @click="remove(todo.id)">X</button>
+          {{ todo.id }}
         </span>
       </li>
     </ul>
     <div class="form">
-      <form @submit.prevent="add"><!--formのAddで送信したら、addが機能する。意図しない画面遷移を避ける-->
-        <input v-model="name"><!--nameで紐づける-->
+      <form @submit.prevent="add">
+        <input v-model="name">
         <button>Add</button>  
       </form>
     </div>
@@ -30,16 +29,16 @@
   export default{
     data(){
       return {
-        name: '',//inputとnameで紐づく
+        name: '',
         done: false
       } 
     },
     created(){
-      this.$store.dispatch('todos/init')//todosのactionsのinitで実行、
+      this.$store.dispatch('todos/init')
     },
     methods:{
       add(){
-        this.$store.dispatch('todos/add',this.name)//todosのactionsのinitで実行、引数は、this.name
+        this.$store.dispatch('todos/add',this.name)
         this.name =""//フォームを初期化(空にしておく)
       },
       remove(id){
@@ -51,19 +50,21 @@
     },
     computed: {
       todos(){
-        return this.$store.state.todos.todos
+        // return this.$store.state.todos.todos
+        return this.$store.getters['todos/orderdTodos']
       }
     },
     filters: {
-      dataFilter: function(date){
+      dataFilter(date){
         return moment(date).format('YYYY/MM/DD HH:mm:ss')
-      }
+      }//dataFilterという関数で、'YYYY/MM/DD HH:mm:ss'形式でフォーマット
     }
   }
+  
 </script>
 
 <style>
-  li > span.done{
-    text-decoration: line-through;
-  }
+li > span > span.done{
+  text-decoration: line-through;
+}/*liのspanタグで横線*/
 </style>
